@@ -29,3 +29,11 @@ enable_HeartBeatTimer:
   type: bool
   default: false
   description: Enable to accurately measure the time spent in the visit.
+track_visible_content_impressions:
+  type: bool
+  default: false
+  description: Enable to track only visible content blocks within a page.
+track_all_content_impressions:
+  type: bool
+  default: false
+  description: Enable to track all content blocks within a page.

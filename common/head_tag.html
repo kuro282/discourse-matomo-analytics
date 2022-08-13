@@ -37,8 +37,12 @@
       _paq.push(["setDoNotTrack", true]);
     }
 
-  if (settings.disable_cookies) {
+    if (settings.disable_cookies) {
       _paq.push(["disableCookies"]);
+    }
+
+    if (settings.enable_HeartBeatTimer) {
+      _paq.push(['enableHeartBeatTimer']);
     }
 
     _paq.push(["setCustomUrl", url]);

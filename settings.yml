@@ -5,6 +5,9 @@ host_url:
 website_id:
   type: string
   default: '1'
+container_id:
+  type: string
+  default: ''
 exclude_groups:
   type: string
   default: ''
